@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(161, 218, 233);
+}
+
+#comboimagen1 {
+  background-color: coral;
+  margin: 10%;
+  position: relative;
+  float: left;
+  top: 30%;
+  width: 20%;
+  height: 20% ;   
+}
+
+#comboimagen2 {
+  background-color: coral;
+  margin: 10%;
+  position: relative;
+  float: right;
+  top: 30%;
+  height: 20%; 
+  width: 20%;  
+}
+
+#barra {
+  height: 100px;
+  width: auto;
+  background-color: white;
+
+}
+
+#barrapequeña {
+  
+  height: 25px;
+  width: auto;
+  background-color:coral;
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+}
+
+
+#logofyc {
+  border-style: none;
+  height: 100px; 
+  width: 150px;
+  
+}
+
+#imgtelefono {
+  width: 30px;
+  height: 30px;
+  float: inline-start;
+}
+
+#imgig {
+  width: 35px; 
+  height: 30px;
+  float: inline-end;
+}
+
+#titulo {
+  position: absolute;
+  font-size: 30px;
+  scroll-padding-inline-start: 20px;
+  font-style:oblique;
+  font-family: Lobster-Regular;
+}
+
+#formulario {
+  position: relative;
+  top: 50px;
+  background-color: white;
+  box-sizing: content-box;
+  height: 410px;
+  width: 380px;
+  border-radius: 20px;
+  border-color: white;
+}
+
+
+#botonempezar {
+  position: relative;
+  bottom: 50px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#carrusel1 {
+  position: relative;
+  margin: 25%;
+  float: left;
+  height: 25%; 
+  width: 25%;
+}
+
+
+
+#imagenchef {
+  position: relative;
+  margin: 50%;
+  margin-top: 85%;
+  margin-left: 20%;
+  float: right;
+  height: 45%; 
+  width: 45%;
+
+}
+
+#pedycot {
+  
+  background-color: white;
+  box-sizing: content-box;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  border-color: white;
+  padding-top: 50%;
+}
+
+#calendario {
+  border-radius: 50%S;
+  border: 40px;
+  background-color: rgba(255, 127, 80, 0.356);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
