@@ -1,32 +1,8 @@
-body {
-    background-color: rgb(161, 218, 233);
-}
-
-#comboimagen1 {
-  background-color: coral;
-  margin: 10%;
-  position: relative;
-  float: left;
-  top: 30%;
-  width: 20%;
-  height: 20% ;   
-}
-
-#comboimagen2 {
-  background-color: coral;
-  margin: 10%;
-  position: relative;
-  float: right;
-  top: 30%;
-  height: 20%; 
-  width: 20%;  
-}
 
 #barra {
   height: 100px;
   width: auto;
   background-color: white;
-
 }
 
 #barrapequeña {
@@ -36,26 +12,50 @@ body {
   border-bottom-width: 2px;
 }
 
+#nav{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 
 #logofyc {
   border-style: none;
   height: 100px; 
   width: 150px;
-  float: right;
+  float: left;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: rgb(161, 218, 233);
+}
+
+footer {
+  background-color: white;
+}
+
+#comboimage {
+  background-color: coral;
+  padding-top: 5px;
+  margin: 10%;
+}
+
+#textocarousel{
+  text-align: center;
   
 }
 
-#imgtelefono {
-  width: 30px;
-  height: 30px;
-  float: inline-start;
+#carouselExampleDark {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-#imgig {
-  width: 35px; 
-  height: 30px;
-  float: inline-end;
-}
+
+
+
 
 #titulo {
   position: absolute;
@@ -72,9 +72,7 @@ body {
   height: 410px;
   width: 380px;
   border-radius: 20px;
-  border-color: white;
-  
-  
+  border-color: white; 
 }
 
 
@@ -138,14 +136,6 @@ td, th {
   padding: 8px;
 }
 
-header {
-  background-color: white;
-}
-
-p{
-  padding: 20px;
-  text-align: center;
-}
 
 div.col{
   padding-left: 20px;
