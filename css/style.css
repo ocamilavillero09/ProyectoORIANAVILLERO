@@ -12,11 +12,6 @@
   border-bottom-width: 2px;
 }
 
-#nav{
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
 #logofyc {
   border-style: none;
   height: 100px; 
@@ -25,8 +20,11 @@
 }
 
 #usuario {
-  height: 2.5%;
-  width: 5%;
+  border-style: none;
+  height: 3%;
+  width: 6%;
+  float: right;
+  padding-bottom: 0%;
 }
 
 header {
