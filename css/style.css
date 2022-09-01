@@ -24,6 +24,11 @@
   float: left;
 }
 
+#usuario {
+  height: 2.5%;
+  width: 5%;
+}
+
 header {
   background-color: white;
 }
@@ -33,13 +38,15 @@ body {
 }
 
 footer {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   background-color: white;
 }
 
 #comboimage {
   background-color: coral;
   padding-top: 5px;
-  margin: 10%;
+  
 }
 
 #textocarousel{
@@ -51,6 +58,12 @@ footer {
   margin-top: 15%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+#img{
+  border-style: none;
+  height: 5%;
+  width: 8%;
 }
 
 
