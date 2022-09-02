@@ -2,11 +2,10 @@
 #barra {
   height: 100px;
   width: auto;
-  background-color: white;
+  background-color:white;
 }
 
 #barrapequeña {
-  
   background-color:coral;
   border-bottom-style: dashed;
   border-bottom-width: 2px;
@@ -27,6 +26,16 @@
   padding-bottom: 0%;
 }
 
+#img{
+  border-style: none;
+  height: 5%;
+  width: 8%;
+}
+
+#indice {
+  padding-top: 30px;
+}
+
 header {
   background-color: white;
 }
@@ -39,11 +48,17 @@ footer {
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   background-color: white;
+  margin-top: 10px;
 }
+
+
 
 #comboimage {
   background-color: coral;
   padding-top: 5px;
+  padding-bottom: 5px;
+  height: 480px;
+  width: 350px;
   
 }
 
@@ -58,11 +73,18 @@ footer {
   margin-right: 5%;
 }
 
-#img{
-  border-style: none;
-  height: 5%;
-  width: 8%;
+#barraenmedio{
+  background-color: white;
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
 }
+
+
 
 
 
