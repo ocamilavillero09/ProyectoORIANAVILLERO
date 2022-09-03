@@ -58,7 +58,7 @@ footer {
   padding-top: 5px;
   padding-bottom: 5px;
   height: 480px;
-  width: 350px;
+  width: 400px;
   
 }
 
@@ -68,9 +68,7 @@ footer {
 }
 
 #carouselExampleDark {
-  margin-top: 15%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 10%;
 }
 
 #barraenmedio{
@@ -83,6 +81,12 @@ footer {
   margin-bottom: 5px;
   
 }
+
+#fotos{
+  margin-top: 30px;
+}
+
+
 
 
 
@@ -97,51 +101,8 @@ footer {
   font-family: Lobster-Regular;
 }
 
-#formulario {
-  margin-top: 10%;
-  background-color: white;
-  box-sizing: content-box;
-  height: 410px;
-  width: 380px;
-  border-radius: 20px;
-  border-color: white; 
-}
 
 
-#botonempezar {
-  float: right;
-}
-
-#carrusel1 {
-  position: relative;
-  margin: 25%;
-  float: left;
-  height: 25%; 
-  width: 25%;
-}
-
-
-
-#imagenchef {
-  position: relative;
-  margin: 50%;
-  margin-top: 85%;
-  margin-left: 20%;
-  float: right;
-  height: 45%; 
-  width: 45%;
-
-}
-
-#pedycot {
-  background-color: white;
-  box-sizing: content-box;
-  height: 250px;
-  width: 300px;
-  border-radius: 20px;
-  border-color: white;
-  padding-top: 50%;
-}
 
 #calendario {
   border-radius: 50%S;
