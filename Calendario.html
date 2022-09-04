@@ -14,7 +14,6 @@
   <body> 
     <header>
 
-
       <!-- Barra superior-->
       <div class="row">
         <div class="col-4"> 
@@ -22,9 +21,9 @@
         </div>
   
         <div class="col-8"> 
-          <div class="container" id="indice">
-                <a href="Valoranos.html"> <img src="img/usuario.jpeg" class="img-thumbnail" alt="image" id="usuario"> </a>
+          <div class="container" id="indice"> 
             <ul class="nav justify-content-end">
+
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Index.html"> <p class="text-dark">Inicio</p></a>
               </li>
@@ -37,6 +36,51 @@
               <li class="nav-item">
                 <a class="nav-link" href="Valoranos.html"><p class="text-dark">Valoranos</p></a>
               </li>
+
+              <!-- Button trigger modal -->
+          <img src="img/usuario.jpeg" class="img-thumbnail" alt="image" id="usuario" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Ingresa</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+    
+                      <div class="mb-3">
+                        <label for="validationDefault01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationDefault01" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="validationDefault02" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="validationDefault02"  required>
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ejemplo.com">
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1">
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                      </div>
+    
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Listo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </ul>
           </div>
         </div>

@@ -18,11 +18,20 @@
   float: left;
 }
 
+#indice{
+  padding-top: 10px;
+}
+
+a.nav-link{
+  padding-top: 25px;
+}
+
 #usuario {
   border-style: none;
-  height: 3%;
-  width: 6%;
+  height: 55%;
+  width: 10%;
   float: right;
+  padding-top: 0%;
   padding-bottom: 0%;
 }
 
@@ -30,10 +39,6 @@
   border-style: none;
   height: 5%;
   width: 8%;
-}
-
-#indice {
-  padding-top: 30px;
 }
 
 header {
@@ -86,6 +91,10 @@ footer {
   margin-top: 30px;
 }
 
+a.btn{
+  background-color: coral;
+  float: right;
+}
 
 
 

@@ -14,7 +14,6 @@
   <body> 
     <header>
 
-
       <!-- Barra superior-->
       <div class="row">
         <div class="col-4"> 
@@ -22,9 +21,9 @@
         </div>
   
         <div class="col-8"> 
-          <div class="container" id="indice">
-                <a href="Valoranos.html"> <img src="img/usuario.jpeg" class="img-thumbnail" alt="image" id="usuario"> </a>
+          <div class="container" id="indice"> 
             <ul class="nav justify-content-end">
+
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Index.html"> <p class="text-dark">Inicio</p></a>
               </li>
@@ -37,6 +36,51 @@
               <li class="nav-item">
                 <a class="nav-link" href="Valoranos.html"><p class="text-dark">Valoranos</p></a>
               </li>
+
+              <!-- Button trigger modal -->
+          <img src="img/usuario.jpeg" class="img-thumbnail" alt="image" id="usuario" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Ingresa</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+    
+                      <div class="mb-3">
+                        <label for="validationDefault01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationDefault01" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="validationDefault02" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="validationDefault02"  required>
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ejemplo.com">
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1">
+                      </div>
+    
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                      </div>
+    
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Listo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </ul>
           </div>
         </div>
@@ -45,7 +89,17 @@
       <!-- Barra inferior-->
           <nav class="navbar" id="barrapequeña"></nav>
       </header>
-      
+
+
+      <!-- Boton del resumen del pedido-->
+      <aside>
+        <button type="button" class="btn btn-primary position-relative" style="float:right ;">
+          Resumen de pedido
+          <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </button>
+       </aside>
  
 
  <article>
@@ -54,7 +108,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1 style="text-align: center;">𝓝𝓾𝓮𝓼𝓽𝓻𝓸 𝓶𝓮𝓷ú</h1>
+        <h1 style="text-align: center;">𝓷𝓾𝓮𝓼𝓽𝓻𝓸 𝓶𝓮𝓷𝓾</h1>
       </div>
     </div>
           
@@ -67,7 +121,7 @@
           <div class="card-body">
             <h5 class="card-title">Lasagna</h5>
             <p class="card-text"> Pollo y carne molida con salsa bechamel y boloñesa</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -78,7 +132,7 @@
           <div class="card-body">
             <h5 class="card-title">Creps</h5>
             <p class="card-text">Pollo desmechado y salsa bechamel</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -89,7 +143,7 @@
           <div class="card-body">
             <h5 class="card-title">Pastas</h5>
             <p class="card-text">Salsa bechamel y cubitos de pollo y perejil</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -100,7 +154,7 @@
           <div class="card-body">
             <h5 class="card-title">Ajiaco</h5>
             <p class="card-text"> Pollo desmechado, mazorca y rodajitas de papa </p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -117,7 +171,7 @@
           <div class="card-body">
             <h5 class="card-title">Postas de sierra</h5>
             <p class="card-text"> Frito o guisado con salsa de la casa</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -128,7 +182,7 @@
           <div class="card-body">
             <h5 class="card-title">Salmon asado</h5>
             <p class="card-text">Salsa especial de la casa con perejil y pimentón</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -139,7 +193,7 @@
           <div class="card-body">
             <h5 class="card-title">Frijolada</h5>
             <p class="card-text">Mazorca desgranda y cubitos de aguacate</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -152,7 +206,7 @@
           <div class="card-body">
             <h5 class="card-title">Burritos</h5>
             <p class="card-text">Carne, tomate, lechuga, cebolla y salsas</p>
-            <a href="#" class="btn btn-primary">Añadir</a>
+            <a href="#" class="btn">Añadir</a>
           </div>
         </div>
       </div>
@@ -177,7 +231,7 @@
             <div class="card-body">
               <h5 class="card-title">Cumpleaños</h5>
               <p class="card-text">Los precios son unicamente del servicio, la comida y decoracion son aparte</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+              <a href="#" class="btn">Añadir</a>
             </div>
           </div>
         </div>
@@ -188,7 +242,7 @@
             <div class="card-body">
               <h5 class="card-title">Chef en casa</h5>
               <p class="card-text">Los precios son unicamente del servicio, la comida y decoracion son aparte</p>
-              <a href="#" class="btn btn-primary">Aadir</a>
+              <a href="#" class="btn">Añadir</a>
             </div>
           </div>
         </div>
@@ -199,7 +253,7 @@
             <div class="card-body">
               <h5 class="card-title">Cenas navideñas</h5>
               <p class="card-text">Los precios son unicamente del servicio, la comida y decoracion son aparte</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+              <a href="#" class="btn">Añadir</a>
             </div>
           </div>
         </div>
@@ -210,20 +264,19 @@
             <div class="card-body">
               <h5 class="card-title">Refrigerios</h5>
               <p class="card-text">Los precios son unicamente del servicio, la comida y decoracion son aparte</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+              <a href="#" class="btn">Añadir</a>
             </div>
           </div>
         </div>
   
       </div>
     </div>
-    
-    
 
  </article>
 
+
  
-                  
+           
         <footer>
           <div class="row">
             <div class="col"> 
