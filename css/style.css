@@ -9,6 +9,7 @@
   background-color:coral;
   border-bottom-style: dashed;
   border-bottom-width: 2px;
+  margin-bottom: 10px;
 }
 
 #logofyc {
@@ -94,6 +95,10 @@ footer {
 a.btn{
   background-color: coral;
   float: right;
+}
+
+button.btn{
+  background-color: rgb(255, 152, 115);
 }
 
 
