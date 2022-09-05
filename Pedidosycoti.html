@@ -93,12 +93,60 @@
 
       <!-- Boton del resumen del pedido-->
       <aside>
-        <button type="button" class="btn position-relative" style="float:right;">
+        <button type="button" class="btn position-relative" style="float:right;" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Resumen
           <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
             <span class="visually-hidden">New alerts</span>
           </span>
         </button>
+
+         
+         <!-- Modal -->
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Resumen del pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                   
+                   <div class="modal-body">
+   
+                     <div class="mb-3">
+                       <label for="validationDefault01" class="form-label">Nombre Completo</label>
+                       <input type="text" class="form-control" id="validationDefault01" required>
+                     </div>
+   
+                     <div class="mb-3">
+                       <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ejemplo.com">
+                     </div>
+   
+                     <div class="mb-3">
+                       <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                       <input type="number" class="form-control" id="exampleFormControlInput1">
+                     </div>
+   
+                     <div class="mb-3">
+                       <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                       <input type="text" class="form-control" id="exampleFormControlInput1">
+                     </div>
+
+                     <select class="form-select" aria-label="Default select example">
+                      <option selected>Seleccionar acción a realizar</option>
+                      <option value="1">Pagar ahora</option>
+                      <option value="2">Pagar al recibir</option>
+                      <option value="3">Realizar cotizacion</option>
+                    </select>
+   
+                   </div>
+                   <div class="modal-footer">
+                     <button type="submit" class="btn btn-primary">Listo</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
        </aside>
  
 
