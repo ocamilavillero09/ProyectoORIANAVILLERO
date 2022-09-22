@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <?php 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <link rel="stylesheet" type= "text/css" href="css/style.css">
+?>
 </head>
 
   <body> 
+  <?php 
     <header>
 
-      <!-- Barra superior-->
+      // Barra superior//
       <div class="row">
         <div class="col-4"> 
         <img src="img/logofyc.jpg" class="img-thumbnail" alt="image" id="logofyc"> 
@@ -34,7 +37,7 @@
                 <a class="nav-link" href="Valoranos.html"><p class="text-dark">Valoranos</p></a>
               </li>
 
-              <!-- Button trigger modal -->
+              // Button trigger modal //
           <img src="img/usuario.jpeg" class="img-thumbnail" alt="image" id="usuario" type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <!-- Modal -->
               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -83,12 +86,12 @@
         </div>
       </div>
   
-      <!-- Barra inferior-->
+      // Barra inferior//
           <nav class="navbar" id="barrapequeña"></nav>
       </header>
 
       
-      <!-- Primera fila Body-->
+      //Primera fila Body//
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 ">
           <div class="col">
@@ -133,7 +136,7 @@
         </div>
       </div>
 
-      <!-- Segunda fila Body-->
+      // Segunda fila Body//
       
         <ul class="nav justify-content-center" id="barraenmedio">
           <li class="nav-item">
@@ -145,7 +148,7 @@
             
 
 
-      <!-- Tercera fila Body-->
+      // Tercera fila Body//
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
@@ -173,7 +176,7 @@
         </div>
       </div>
 
-      <!-- Cuarta fila Body-->
+      // Cuarta fila Body //
       <div class="container" style="padding-top:30px;">
       <div class="row">
         <div class="col-6">
@@ -277,5 +280,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  ?>
 </body>
 </html>
